@@ -37,4 +37,68 @@ public class InspectionTask {
 
     public InspectionTask() {
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public void setTaskName(String taskName) {
+        this.taskName = taskName;
+    }
+
+    public String getTaskContent() {
+        return taskContent;
+    }
+
+    public void setTaskContent(String taskContent) {
+        this.taskContent = taskContent;
+    }
+
+    public String getFinishTime() {
+        return finishTime;
+    }
+
+    public void setFinishTime(String finishTime) {
+        this.finishTime = finishTime;
+    }
+
+    public String getTaskStatus() {
+        return taskStatus;
+    }
+
+    public void setTaskStatus(String taskStatus) {
+        this.taskStatus = taskStatus;
+    }
+
+    public String getTaskPerson() {
+        return taskPerson;
+    }
+
+    public void setTaskPerson(String taskPerson) {
+        this.taskPerson = taskPerson;
+    }
+
+    public BlueLabel getBlueLabel() {
+        return blueLabel;
+    }
+
+    public void setBlueLabel(BlueLabel blueLabel) {
+        this.blueLabel = blueLabel;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

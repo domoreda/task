@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * @Author:ZhangChao
  * @Description:
- * @Date:Created in 2019/1/15
+ * @Date:Created in 2019/1/18
  */
 @RepositoryRestController
 @RequestMapping("/api/inspectionTasks")
@@ -35,5 +35,4 @@ public class InspectionTaskController extends FuzzySearchController<InspectionTa
                 data.getTotalPages());
         return ResponseEntity.ok(PagedResources.wrap(projectInlineData,pageMetadata));
     }
-
 }
